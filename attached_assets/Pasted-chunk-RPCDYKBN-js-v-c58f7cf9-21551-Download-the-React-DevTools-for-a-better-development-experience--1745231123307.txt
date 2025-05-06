@@ -1,0 +1,74 @@
+chunk-RPCDYKBN.js?v=c58f7cf9:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:164 
+            
+            
+           POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent 404 (Not Found)
+makeRequest @ @google_generative-ai.js?v=bbdf2567:194
+makeModelRequest @ @google_generative-ai.js?v=bbdf2567:189
+await in makeModelRequest
+generateContent @ @google_generative-ai.js?v=bbdf2567:544
+generateContent @ @google_generative-ai.js?v=bbdf2567:896
+generateStudyPlan @ index.ts:164
+handleGenerateAIPlan @ StudyPlanner.tsx:244
+callCallback2 @ chunk-RPCDYKBN.js?v=c58f7cf9:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=c58f7cf9:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=c58f7cf9:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=c58f7cf9:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=c58f7cf9:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=c58f7cf9:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=c58f7cf9:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=c58f7cf9:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=c58f7cf9:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=c58f7cf9:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=c58f7cf9:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=c58f7cf9:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=c58f7cf9:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=c58f7cf9:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=c58f7cf9:5449
+index.ts:170 Error generating study plan: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 ] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (@google_generative-ai.js?v=bbdf2567:226:9)
+    at async makeRequest (@google_generative-ai.js?v=bbdf2567:199:5)
+    at async generateContent (@google_generative-ai.js?v=bbdf2567:544:20)
+    at async generateStudyPlan (index.ts:164:20)
+    at async handleGenerateAIPlan (StudyPlanner.tsx:244:20)
+generateStudyPlan @ index.ts:170
+await in generateStudyPlan
+handleGenerateAIPlan @ StudyPlanner.tsx:244
+callCallback2 @ chunk-RPCDYKBN.js?v=c58f7cf9:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=c58f7cf9:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=c58f7cf9:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=c58f7cf9:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=c58f7cf9:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=c58f7cf9:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=c58f7cf9:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=c58f7cf9:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=c58f7cf9:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=c58f7cf9:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=c58f7cf9:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=c58f7cf9:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=c58f7cf9:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=c58f7cf9:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=c58f7cf9:5449
+StudyPlanner.tsx:297 Error generating study plan: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 ] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (@google_generative-ai.js?v=bbdf2567:226:9)
+    at async makeRequest (@google_generative-ai.js?v=bbdf2567:199:5)
+    at async generateContent (@google_generative-ai.js?v=bbdf2567:544:20)
+    at async generateStudyPlan (index.ts:164:20)
+    at async handleGenerateAIPlan (StudyPlanner.tsx:244:20)
+handleGenerateAIPlan @ StudyPlanner.tsx:297
+await in handleGenerateAIPlan
+callCallback2 @ chunk-RPCDYKBN.js?v=c58f7cf9:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=c58f7cf9:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=c58f7cf9:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=c58f7cf9:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=c58f7cf9:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=c58f7cf9:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=c58f7cf9:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=c58f7cf9:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=c58f7cf9:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=c58f7cf9:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=c58f7cf9:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=c58f7cf9:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=c58f7cf9:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=c58f7cf9:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=c58f7cf9:5449

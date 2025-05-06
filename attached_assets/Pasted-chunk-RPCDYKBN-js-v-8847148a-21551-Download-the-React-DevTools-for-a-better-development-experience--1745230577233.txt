@@ -1,0 +1,35 @@
+chunk-RPCDYKBN.js?v=8847148a:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+chunk-RPCDYKBN.js?v=8847148a:521 Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.
+    at a
+    at a
+    at https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=8847148a:337:18
+    at nav
+    at div
+    at div
+    at aside
+    at Sidebar (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/src/components/ui/sidebar.tsx:37:22)
+    at div
+    at div
+    at DashboardLayout (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/src/layouts/DashboardLayout.tsx:22:43)
+    at StudentDashboardPage
+    at Route (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=8847148a:323:16)
+    at Switch (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=8847148a:379:17)
+    at Provider (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-OXZDJRWN.js?v=8847148a:38:15)
+    at TooltipProvider (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=8847148a:62:5)
+    at AuthProvider (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/src/contexts/AuthContext.tsx:46:32)
+    at ThemeProvider (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/src/contexts/ThemeContext.tsx:29:33)
+    at QueryClientProvider (https://af5d159d-2d6c-4c6d-8e55-f93ccbd908b0-00-1p8lin7srvbc0.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=8847148a:2805:3)
+    at App
+printWarning @ chunk-RPCDYKBN.js?v=8847148a:521
+error @ chunk-RPCDYKBN.js?v=8847148a:505
+validateDOMNesting @ chunk-RPCDYKBN.js?v=8847148a:8256
+createInstance @ chunk-RPCDYKBN.js?v=8847148a:8328
+completeWork @ chunk-RPCDYKBN.js?v=8847148a:16290
+completeUnitOfWork @ chunk-RPCDYKBN.js?v=8847148a:19224
+performUnitOfWork @ chunk-RPCDYKBN.js?v=8847148a:19206
+workLoopSync @ chunk-RPCDYKBN.js?v=8847148a:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=8847148a:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=8847148a:18678
+workLoop @ chunk-RPCDYKBN.js?v=8847148a:197
+flushWork @ chunk-RPCDYKBN.js?v=8847148a:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=8847148a:384
